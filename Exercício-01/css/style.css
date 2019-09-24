@@ -17,3 +17,8 @@ body {
 .aluna {
     list-style: none;
 }
+
+.vermelha {
+    color: red;
+    text-decoration: underline;
+}
