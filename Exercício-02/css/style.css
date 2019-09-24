@@ -27,5 +27,5 @@ body {
 }
 
 .invisivel {
-    display: none;
+    opacity: 0;
 }
