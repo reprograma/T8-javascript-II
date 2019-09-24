@@ -16,17 +16,17 @@ Você precisa avisar ao navegador que existe um arquivo Javascipt e que ele prec
 ### Formas de capturar um elemento do DOM
 
 ```Javascript
-document.getElementById()
-document.getElementsByClassName()
-document.getElementsByTagName()
-document.querySelector()
-document.querySelectorAll()
+document.getElementById("meu-id")
+document.getElementsByClassName("minha-classe")
+document.getElementsByTagName("minha-tag")
+document.querySelector(".classe ou #id ou tag")
+document.querySelectorAll(".classe ou #id ou tag")
 ```
 
 ### Como criar um novo elemento no DOM
 
 ```Javascript
-const novoElemento = document.createElement()
+const novoElemento = document.createElement("tag-HTML-que-você-quer-criar")
 ```
 
 ### Como inserir um elemento dentro de um elemento pai
