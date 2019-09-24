@@ -1,5 +1,19 @@
+
+
 .primeira-section,
 .segunda-section,
 .terceira-section {
     height: 400px;
+}
+
+.vermelha {
+    background-color: red;
+}
+
+.verde {
+    background-color: green
+}
+
+.azul{
+   background-color: blue; 
 }
