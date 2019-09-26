@@ -37,3 +37,15 @@ const pai = document.getElementById("meu-id")
 
 pai.appendChild(novoElemento)
 ```
+
+### Como adicionar atributo a um elemento
+
+```Javascript
+elemento.setAttribute("atributo-que-você-quer-criar", "valor-do-atributo");
+```
+
+### Como pegar o valor de um atributo
+
+```Javascript
+elemento.getAttribute("atributo-que-você-quer-pegar");
+```
